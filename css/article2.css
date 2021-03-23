@@ -1,0 +1,55 @@
+
+.article2{
+    height: 500px;
+   
+}
+.cuahang-text{
+    height: 60px;
+    text-align: justify;
+   
+}
+.signature{
+    background-color:orange;
+    height: 160px;
+}
+.signature h6{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.signature p{
+    color:white;
+    font-weight: 100;
+    text-align: justify;
+}
+.signature-slideshow{
+    height: 200px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic1{
+    height: 80%;
+
+}
+h7{
+position: absolute;
+top:40%;
+left: 10%;
+color:white; 
+font-weight: bold;
+}
+.pic2{
+    height: 80%;
+   
+}
+.pic3{
+    height: 80%;
+
+}
+.pic4{
+    height: 80%;
+   
+}

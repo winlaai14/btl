@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+.background1{
+  background-image: url(../img/img-page/slideshow5.jpg);
+    height: 400px;
+    width: 100%;
+    background-size:cover;
+     background-attachment: fixed;
+      
+}
+.chuto{
+    font-size: 60px;
+    font-weight: bold;
+    color:#D1BFAE;
+    font-family: 'Oswald', sans-serif;
+}
+.chunho{
+    padding-top: 200px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color:azure;
+    font-weight: 100;
+}
+.nut{
+    margin-left: 2%;
+    text-align: center;
+  border: 2px  solid white;
+}
+.nut:hover{
+
+  text-decoration: none;
+    background: transparent;
+    color:black;
+    background-color: black;
+    transition: 0.7s;
+    
+}
+
+.background2{
+    margin-top:2%;
+      background-image: url(../img/img-page/hinhdep3.jpg);
+    height: 400px;
+    width: 100%;
+    background-size:cover;
+     background-attachment: fixed;
+      
+    
+}
+.chuto2{
+    font-size: 60px;
+    font-weight: bold;
+    color:#30261B;
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+   
+    
+}
+.chunho2{
+    padding-top: 200px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color:azure;
+    font-weight: 100;
+     text-align: right;
+}
+.nut2{
+    margin-left: 2%;
+    text-align: center;
+  border: 2px  solid white;
+    float: right;
+}
+.nut2:hover{
+
+  text-decoration: none;
+    background: transparent;
+    color:black;
+    background-color: black;
+    transition: 0.7s;
+    
+}

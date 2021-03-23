@@ -1,0 +1,34 @@
+
+
+.footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.eagle-logo{
+    height: 240px;
+ 
+   
+}
+.eagle-gioithieu{
+    height: 240px;
+    color:white;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 100;
+   
+}
+.eagle-thongtin{
+     height: 240px;
+   color:white;
+    line-height: 0.5;
+            font-size: 14px;
+}
+.eagle-facebook{
+     height: 240px;
+
+}

@@ -1,0 +1,84 @@
+.container{
+    width: 1008px;
+    height: cover;
+    
+}
+.fixed{
+    height: 70px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quaylai{
+    height: 30px;
+   
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 30px;
+
+}
+.dungthu{
+    height: 30px;
+   
+}
+.dungthu p{
+    position: absolute;
+    right: -5%;
+    top: 30%;
+}
+.nav{
+    height:50px;
+    background-color: black;
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.nav ul{
+    list-style: none;
+}
+li:hover{
+         
+    border-bottom: double orange;
+    transition: 0.7s;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+a{
+    font-size: 12px;
+    color:white;
+    font-weight: 800;
+    
+}
+.slideshow{
+    height:600px;
+}
+.maytinh{
+    height: 30px;
+    color: orange;
+    font-size:14px;
+   
+}
+.maytinhbang{
+    height: 30px;
+     font-size:14px;
+    color:darkgray;
+   
+}
+.dienthoai{
+    height: 30px;
+     font-size:14px;
+     color:darkgray;
+   
+}

@@ -1,0 +1,48 @@
+.logo{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo1{
+    height: 100%;
+}
+.logo1:hover{
+    margin-bottom: 5%;
+    transition: 1s;
+}
+.logo2{
+   
+            height: 100%;
+}
+.logo2:hover{
+   
+ 
+    margin-bottom: 5%;
+      transition: 1s;
+}
+.logo3{
+   
+           height: 100%;
+}
+.logo3:hover{
+    margin-bottom: 5%;
+      transition: 1s;
+}
+.logo4{
+   
+          height: 100%;
+}
+.logo4:hover{
+    margin-bottom: 5%;
+      transition: 1s;
+}
+.logo5{
+   
+           height: 100%;
+}
+.logo5:hover{
+    margin-bottom: 5%;
+      transition: 1s;
+}

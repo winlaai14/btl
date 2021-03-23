@@ -1,0 +1,147 @@
+.card-img-top:hover>.box{
+
+}
+.card-img-top:hover>.card-body h5{
+    
+}
+.article{
+    
+    height: cover;
+    background-color: #F5F5F5;
+}
+.menu1{
+    height: 500px;
+   
+}
+.menunoibat{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.text-menunoibat h1{
+    font-weight: bold;
+    font-size:24px;
+    color:orange;
+}
+.menunoibat .fas.fa-grip-lines{
+    margin-top:-10%;
+    font-size: 40px;
+}
+
+.menu1-chitiet{
+    height: 400px;
+   
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.item1{
+    height: 400px;
+    background-color: white;   
+}
+.item1-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.item2{
+    height: 400px;
+     background-color: white;   
+}
+.item3{
+    height: 400px;
+    background-color: white;   
+}
+.menu2{
+    height: 500px;
+   
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.item4{
+    height: 400px;
+   background-color: white;   
+}
+.item5{
+    height: 400px;
+    background-color: white;   
+}
+.item6{
+    height: 400px;
+    background-color: white;   
+}
+.menu3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+}
+.item7{
+    height: 400px;
+     background-color: white;   
+}
+.item8{
+    height: 400px;
+    background-color: white;  
+}
+.item9{
+    height: 400px;
+   background-color: white;   
+}
+.blog h1{
+    color:orange;
+}
+.blog{
+    height: 700px;
+ background-color: #191919;
+}
+.blog .fas.fa-grip-lines{
+    color:white;
+}
+.blog-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.blog-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.article-blog{
+    height: 580px;
+    background-color: white;
+
+}
+.article-blog-aside{
+    height: 580px;
+       background-color: white;
+}
+
+.blog2{
+background-color: #191919;
+    height: 800px;
+      display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.blog2-item1{
+      background-color: white;
+    height: 700px; 
+}
+.blog2-item2{
+    height: 700px;
+        background-color: white;
+}
+.blog2-item3{
+    height: 700px;
+        background-color: white;
+}

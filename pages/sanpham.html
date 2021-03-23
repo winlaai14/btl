@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="sagscroller.css" />
+       <script src="sagscroller.js"></script>
+  <link rel="stylesheet" href="sanpham-css/footer2.css">
+  <link rel="stylesheet" href="sanpham-css/logo2.css">
+  <link rel="stylesheet" href="sanpham-css/aside2.css">
+  <link rel="stylesheet" href="sanpham-css/article2.css">
+  <link rel="stylesheet" href="sanpham-css/menu2.css">
+  <link rel="stylesheet" href="sanpham-css/background2.css">
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="bootstrap-grid.css">
+   <link rel="stylesheet" href="sanpham-css/sanpham2.css">
+   <link rel="stylesheet" href="reponsive.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   
+<style type="text/css">
+    
+
+/* #SAG scroller demo #1 */
+
+div#mysagscroller{
+width: 200px;  /*width of scroller*/
+height:250px;
+}
+
+div#mysagscroller ul li{
+background:navy;
+color:white;
+padding:5px;
+margin-bottom:5px; /*bottom spacing between each LI*/
+}
+
+div#mysagscroller ul li:first-letter{
+font-size:28px;
+background:white;
+color:black;
+padding:0 2px;
+margin-right:2px;
+}
+
+
+/* #SAG scroller demo #2 */
+
+div#mysagscroller2{
+    margin: auto;
+width: 800px; /*width of scroller*/
+height:300px;
+border:7px solid #C0C0C0;
+}
+
+div#mysagscroller2 ul li img{
+border-width:0;
+display:block; /*this causes each image to be flush against each other*/
+}
+    @media screen and (max-width:415px) {
+        div#mysagscroller2{
+   margin:auto;
+ /*width of scroller*/
+height:150px;
+border:7px solid #C0C0C0;
+}
+    }
+       @media screen and (max-width:375px) {
+        div#mysagscroller2{
+margin:auto;
+width: 375px; /*width of scroller*/
+height:150px;
+border:7px solid #C0C0C0;
+}
+    }
+       @media screen and (max-width:320px) {
+        div#mysagscroller2{
+margin:auto;
+/*width of scroller*/
+height:150px;
+border:7px solid #C0C0C0;
+}
+    }
+
+
+</style>
+<script>
+
+//SAG scroller demo #1:
+
+var sagscroller1=new sagscroller({
+	id:'mysagscroller',
+	mode: 'manual' //<--no comma following last option
+})
+
+//SAG scroller demo #2:
+
+var sagscroller2=new sagscroller({
+	id:'mysagscroller2',
+	mode: 'auto',
+	pause: 2500,
+	animatespeed: 400 //<--no comma following last option
+})
+
+</script>
+<body>
+      <div class="container-fluid">
+       <header>
+       <div class="row">
+        <div class="col-sm-12 fixed">
+        <div class="col-sm-2 quaylai">
+            <p> <i class="fas fa-undo-alt"></i> Quay lại</p>
+        </div>
+        <div class="col-sm-5 items">
+            <div class="col-sm-5 maytinh">
+                <p><i class="fas fa-tv"></i> Máy Tính</p>
+            </div>
+            <div class="col-sm-6 maytinhbang">
+                <p><i class="fas fa-tablet-alt"></i> Máy Tính Bảng</p>
+            </div>
+            <div class="col-sm-6 dienthoai">
+                <p><i class="fas fa-mobile-alt"></i> Điện thoại</p>
+            </div>
+        </div>
+        <div class="col-sm-3 dungthu">
+            <button class="btn btn-outline-success">Dùng thử</button>
+            <p><i class="far fa-times-circle"></i> Xem trực tiếp</p>
+        </div>
+    </div>
+     </div>
+      </header>
+      <nav>
+             <div class="row">
+       <div class="col-sm-12 nav">
+        <ul>
+            <li><a href=""><img width="50" height="30" src="../img/eagle-logo.png" alt=""></a></li>
+            <li><a href="">TRANG CHỦ</a></li>
+            <li><a href="#footer">VỀ CHÚNG TÔI</a></li>
+            <li><a href="#blog">CÂU CHUYỆN CÀ PHÊ</a></li>
+            <li><a href="#menu">THỰC ĐƠN</a></li>
+            <li><a href="#blog2">TIN TỨC</a></li>
+            <li><a href="#footer">LIÊN HỆ</a></li>
+            <li><a href=""><i class="fas fa-search"></i></a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+    </div>
+          </div>
+    </nav>
+    <div class="container-fluid">
+    <article>
+   
+    <div class="col-sm-12 slideshow">
+       
+        <img width="100%" height="100%" src="img/img-page/slideshow6.jpg" alt="">
+        <div class="col-sm-12 distinct">
+                <h1>DISTINCT <br>
+                    AROMA <h1 id="xanhla">COFFEE</h1> </h1> 
+                    <p>Lorem ipsum dolor sit amet, nec ne oficiis 
+                                electram. <br> dolore nominati vim et. </p>
+            <div class="col-sm-4 readmore">
+                       <button class="Readmore"> READ MORE</button>
+            </div>
+       </div>
+    </div>
+    
+   
+   
+    <div class="col-12-sm slideshow2">
+   
+        <div class="col-sm-6 flavours">
+            <img width="100%" src="img/img-page/pic1.jpg" alt="">
+            <h2>NEW COFFEE FLAVOURS</h2>
+            <p>READ MORE</p>
+        </div>
+        <div class="col-sm-6 friday" >
+            <img width="100%" src="img/img-page/pic2.jpg" alt="">
+            <h2>THIS FRIDAY 25% OFF</h2>
+            <p>READ MORE</p>
+        </div>
+    </div>
+
+    <div class="col-sm-12 whathappen">
+         <h3>What Happens Here</h3>
+         <h2>COFFEE HOUSE MERCHANDISE</h2>
+         <div class="line" ></div>
+    </div>
+    
+    
+    
+   <div class="col-sm-12 background1">
+      <div class="col-sm-12 ndso1">
+        <div class="col-sm-6 chunho">
+        AMAZING COFFEE WITH BARISTA
+        </div>
+        <div class="col-sm-6 chuto">
+            BARISTA COFFEE
+        </div>
+         <div class="col-sm-2 nut">
+             <a  href="">SHOP NOW</a>
+         </div>
+       </div>
+   </div>
+   
+   
+      <div class="col-sm-12 background2">
+      <div class="col-sm-12 ndso2">
+        <div class="col-sm-12 chunho2">
+        AMAZING COFFEE WITH BARISTA
+        </div>
+        <div class="col-sm-12 chuto2">
+            BARISTA COFFEE
+        </div>
+         <div class="col-sm-2 nut2">
+             <a  href="">SHOP NOW</a>
+         </div>
+       </div>
+   </div>
+
+   
+   <div class="col-sm-12 menu">
+    
+       <div class="col-sm-6 menu1">
+           <div class="col-sm-10 item1"> <img width="100%"  src="img/img-page/sanpham1.jpg" alt="">
+           <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>PAPER POUCH</h5>
+           <p>$46.00</p>
+           </div>
+           <div class="col-sm-10 item2"> <img width="100%"   src="img/img-page/sanpham2.jpg" alt="">
+               <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+               <h5>PLASTIC POUCH</h5>
+           <p>$27.00</p>
+           </div>
+           <div class="col-sm-10 item3"> <img width="100%"  src="img/img-page/sanpham3.jpg" alt="">
+            <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>TEA POUCH</h5>
+           <p>$54.00</p>
+           </div>
+           <div class="col-sm-10 item4"> <img width="100%"   src="img/img-page/sanpham4.jpg" alt="">
+            <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>CHOCO BITES</h5>
+           <p>$63.00</p>
+           </div>
+       </div>
+      
+      
+       <div class="col-sm-6 menu2">
+           <div class="col-sm-10 item5"> <img width="100%" class="magnify" src="img/img-page/sanpham5.jpg" alt="">
+            <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>PAPER BAG</h5>
+           <p>$79.00</p></div>
+           <div class="col-sm-10 item6"> <img width="100%" class="magnify" src="img/img-page/sanpham6.jpg" alt="">
+            <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>COFFEE POT</h5>
+           <p>$71.00</p>
+           </div>
+           <div class="col-sm-10 item7"> <img width="100%" class="magnify" src="img/img-page/sanpham7.jpg" alt="">
+            <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>PAPER CUT</h5>
+           <p>$46.00</p>
+           </div>
+           <div class="col-sm-10 item8"> <img width="100%" class="magnify" src="img/img-page/sanpham8.jpg" alt="">
+            <div class="box"><i class="fas fa-shopping-cart"></i> ADD TO CART</div>
+           <h5>GROUND COFFEE</h5>
+           <p>$46.00</p>
+           </div>
+       </div>
+       
+       
+   </div>
+
+   <center><div class="col-sm-12 special ">
+               <h5>What Happens Here</h5>
+                <h1>THIS FRIDAY 25% OFF & <br> SPECIAL GIFT</h1>
+               <button>READ MORE</button>
+       </div>
+          </center>
+        
+          <div class="col-sm-12 aside">
+             <div class="col-sm-4 aside1">
+                 <h1>NEW COFFEE <br>FLAVOURS</h1>
+                 <button>READ MORE</button>
+             </div>
+               <div class="col-sm-4 aside2">
+                   <h1>NEW COFFEE <br>SHOP</h1>
+                 <button>READ MORE</button>
+               </div>
+          </div>
+           <div class="col-sm-12 slide">
+          <div id="mysagscroller2" class="sagscroller">
+	<ul>
+	<li><a href="#"><img width="100%" height="100%" src="img/img-page/hinhdeo.jpg" /></a></li>
+	<li><a href="#"><img width="100%" height="100%"  src="img/img-page/hinhdep2.jpg" /></a></li>
+	<li><a href="#"><img width="100%" height="100%"  src="img/img-page/hinhdep3.jpg" /></a></li>
+	<li><a href="#"><img width="100%" height="100%"  src="img/img-page/hinhdep4.jpg" /></a></li>
+	</ul>
+	
+</div>
+ 
+         </div>
+         
+          <center>
+          <div class="col-sm-10 logo">
+              <div class="col-sm-2 logo1"><img width="100%" src="img/img-page/logo1.png" alt=""></div>
+                     <div class="col-sm-2 logo2"><img width="100%" src="img/img-page/logo2.png" alt=""></div>
+                            <div class="col-sm-2 logo3"><img width="100%" src="img/img-page/logo3.png" alt=""></div>
+                                   <div class="col-sm-2 logo4"><img width="100%" src="img/img-page/logo4.png" alt=""></div>
+                                          <div class="col-sm-2 logo5"><img width="100%" src="img/img-page/logo5.png" alt=""></div>
+          </div>
+          
+          </center>
+          </article>
+             </div>
+             <div class="container-fluid">
+         <footer>
+         
+          <div class="col-sm-12 footer">
+              <div class="col-sm-3 footer-1">
+                  <h5>OPENING HOURS</h5>
+                  <p>MONDAY    CLOSED</p>
+                  <p>TUESDAY    CLOSED</p>
+                  <p>WEDNESDAY   CLOSED</p>
+                  <p>THURSDAY    CLOSED</p>
+                  <p>FRIDAY    CLOSED</p>
+                  <p>SATURDAY    CLOSED</p>
+                  <p>SUNDAY    CLOSED</p>
+                  
+              </div>
+              <div class="col-sm-3 footer-2">
+                  <h5>LATEST POSTS</h5>
+                  <h6>EXPAND YOUR MIND, CHANGE EVERYTHING</h6>
+                  <p>14.02.2017</p>
+                    <h6>EXPAND YOUR MIND, CHANGE EVERYTHING</h6>
+                  <p>14.02.2017</p>
+                    <h6>EXPAND YOUR MIND, CHANGE EVERYTHING</h6>
+                  <p>14.02.2017</p>
+                    <h6>EXPAND YOUR MIND, CHANGE EVERYTHING</h6>
+                  <p>14.02.2017</p>
+              </div>
+              <div class="col-sm-3 footer-3" >
+                  <h5>CONTACT US</h5>
+                  <p>info@cafe&bar_theme
+                1-444-123-4559</p>
+             <p>Raymond Boulevard 224,
+                New York</p>
+                <h5>THE LAST STANDARD POST</h5>
+              </div>
+              <div class="col-sm-3 footer-4" >
+                  <h5>OTHER LOCATIONS</h5>
+                  <h6>BARISTA COFFEE SHOP</h6>
+                  <p>2606 Saints Alley 
+Tampa, FL 33602</p>
+             <h6>BARISTA CAFE</h6>
+             <p>3497 Watson Street 
+Camden, NJ 08102</p>
+        
+             <img src="img/img-page/LOGO-BARISTA2.png" alt="">
+              </div>
+              
+          </div>
+            <div class="col-sm-12 footer2">
+                <div class="col-sm-4 text-1">
+                    <p>Barista Edge Themes</p>
+                </div>
+                 <div class="col-sm-4 text-logo">
+                     <i class="fab fa-facebook"></i>
+                     <i class="fab fa-twitter"></i>
+                     <i class="fab fa-tumblr"></i>
+                     <i class="fab fa-vimeo-v"></i>
+                     <i class="fab fa-linkedin-in"></i>
+                 </div>
+                  <div class="col-sm-4 copyright">
+                      <p>© 2017 All rights reserved</p>
+                  </div>
+                    
+            </div>
+            </footer>
+ </div>
+            <script language="JavaScript">
+
+
+
+//Comment trail script- By Kurt (kurt.grigg@virgin.net)
+
+//Script featured on Dynamic Drive
+
+//Visit http://www.dynamicdrive.com for this script and more
+
+
+
+colours=new Array('#ff0000','#00ff00','#ffffff','#ff00ff','#ffa500','#ffff00','#00ff00','#ffffff','ff00ff')
+
+n = 10;
+
+y = 0;
+
+x = 0;
+
+n6=(document.getElementById&&!document.all);
+
+ns=(document.layers);
+
+ie=(document.all);
+
+d=(ns||ie)?'document.':'document.getElementById("';
+
+a=(ns||n6)?'':'all.';
+
+n6r=(n6)?'")':'';
+
+s=(ns)?'':'.style';
+
+if (ns){
+
+for (i = 0; i < n; i++)
+
+document.write('<layer name="dots'+i+'" top=0 left=0 width='+i/2+' height='+i/2+' bgcolor=#ff0000></layer>');
+
+}
+
+if (ie)
+
+document.write('<div id="con" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+
+if (ie||n6){
+
+for (i = 0; i < n; i++)
+
+document.write('<div id="dots'+i+'" style="position:absolute;top:0px;left:0px;width:'+i/2+'px;height:'+i/2+'px;background:#ff0000;font-size:'+i/2+'"></div>');
+
+}
+
+if (ie)
+
+document.write('</div></div>');
+
+(ns||n6)?window.captureEvents(Event.MOUSEMOVE):0;
+
+function Mouse(evnt){
+
+y = (ns||n6)?evnt.pageY+4 - window.pageYOffset:event.y+4;
+
+x = (ns||n6)?evnt.pageX+1:event.x+1;
+
+}
+
+(ns)?window.onMouseMove=Mouse:document.onmousemove=Mouse;
+
+function animate(){
+
+o=(ns||n6)?window.pageYOffset:0;
+
+if (ie)con.style.top=document.body.scrollTop + 'px';
+
+for (i = 0; i < n; i++){
+
+var temp1 = eval(d+a+"dots"+i+n6r+s);
+
+
+
+randcolours = colours[Math.floor(Math.random()*colours.length)];
+
+(ns)?temp1.bgColor = randcolours:temp1.background = randcolours; 
+
+if (i < n-1){
+
+ var temp2 = eval(d+a+"dots"+(i+1)+n6r+s);
+
+ temp1.top = parseInt(temp2.top) + 'px';
+
+ temp1.left = parseInt(temp2.left) + 'px';
+
+ } 
+
+else{
+
+ temp1.top = y+o + 'px';
+
+ temp1.left = x + 'px';
+
+ }
+
+}
+
+setTimeout("animate()",10);
+
+}
+
+animate();
+
+// -->
+
+</script> 
+
+   <script language="JavaScript1.2">
+
+/*
+Flying Butterfly script (By BGAudioDr@aol.com)
+Modified slightly/ permission granted to Dynamic Drive to feature script in archive
+For full source, visit http://www.dynamicdrive.com
+*/
+
+var Ymax=8;                                //MAX # OF PIXEL STEPS IN THE "X" DIRECTION
+var Xmax=8;                                //MAX # OF PIXEL STEPS IN THE "Y" DIRECTION
+var Tmax=10000;                        //MAX # OF MILLISECONDS BETWEEN PARAMETER CHANGES
+
+//FLOATING IMAGE URLS FOR EACH IMAGE. ADD OR DELETE ENTRIES. KEEP ELEMENT NUMERICAL ORDER STARTING WITH "0" !!
+
+var floatimages=new Array();
+floatimages[0]='butterfly2.gif';
+floatimages[1]='butterfly2.gif';
+
+//*********DO NOT EDIT BELOW***********
+var NS4 = (navigator.appName.indexOf("Netscape")>=0 && parseFloat(navigator.appVersion) >= 4 && parseFloat(navigator.appVersion) < 5)? true : false;
+var IE4 = (document.all)? true : false;
+var NS6 = (parseFloat(navigator.appVersion) >= 5 && navigator.appName.indexOf("Netscape")>=0 )? true: false;
+var wind_w, wind_h, t='', IDs=new Array();
+for(i=0; i<floatimages.length; i++){
+t+=(NS4)?'<layer name="pic'+i+'" visibility="hide" width="10" height="10"><a href="javascript:hidebutterfly()">' : '<div id="pic'+i+'" style="position:absolute; visibility:hidden;width:10px; height:10px; z-index:1000"><a href="javascript:hidebutterfly()">';
+t+='<img src="'+floatimages[i]+'" name="p'+i+'" border="0">';
+t+=(NS4)? '</a></layer>':'</a></div>';
+}
+document.write(t);
+
+function moveimage(num){
+if(getidleft(num)+IDs[num].W+IDs[num].Xstep >= wind_w+getscrollx())IDs[num].Xdir=false;
+if(getidleft(num)-IDs[num].Xstep<=getscrollx())IDs[num].Xdir=true;
+if(getidtop(num)+IDs[num].H+IDs[num].Ystep >= wind_h+getscrolly())IDs[num].Ydir=false;
+if(getidtop(num)-IDs[num].Ystep<=getscrolly())IDs[num].Ydir=true;
+moveidby(num, (IDs[num].Xdir)? IDs[num].Xstep :  -IDs[num].Xstep , (IDs[num].Ydir)?  IDs[num].Ystep:  -IDs[num].Ystep);
+}
+
+function getnewprops(num){
+IDs[num].Ydir=Math.floor(Math.random()*2)>0;
+IDs[num].Xdir=Math.floor(Math.random()*2)>0;
+IDs[num].Ystep=Math.ceil(Math.random()*Ymax);
+IDs[num].Xstep=Math.ceil(Math.random()*Xmax)
+setTimeout('getnewprops('+num+')', Math.floor(Math.random()*Tmax));
+}
+
+function getscrollx(){
+if(NS4 || NS6)return window.pageXOffset;
+if(IE4)return document.body.scrollLeft;
+}
+
+function getscrolly(){
+if(NS4 || NS6)return window.pageYOffset;
+if(IE4)return document.body.scrollTop;
+}
+
+function getid(name){
+if(NS4)return document.layers[name];
+if(IE4)return document.all[name];
+if(NS6)return document.getElementById(name);
+}
+
+function moveidto(num,x,y){
+if(NS4)IDs[num].moveTo(x,y);
+if(IE4 || NS6){
+IDs[num].style.left=x+'px';
+IDs[num].style.top=y+'px';
+}}
+
+function getidleft(num){
+if(NS4)return IDs[num].left;
+if(IE4 || NS6)return parseInt(IDs[num].style.left);
+}
+
+function getidtop(num){
+if(NS4)return IDs[num].top;
+if(IE4 || NS6)return parseInt(IDs[num].style.top);
+}
+
+function moveidby(num,dx,dy){
+if(NS4)IDs[num].moveBy(dx, dy);
+if(IE4 || NS6){
+IDs[num].style.left=(getidleft(num)+dx)+'px';
+IDs[num].style.top=(getidtop(num)+dy)+'px';
+}}
+
+function getwindowwidth(){
+if(NS4 || NS6)return window.innerWidth;
+if(IE4)return document.body.clientWidth;
+}
+
+function getwindowheight(){
+if(NS4 || NS6)return window.innerHeight;
+if(IE4)return document.body.clientHeight;
+}
+
+function init(){
+wind_w=getwindowwidth();
+wind_h=getwindowheight();
+for(i=0; i<floatimages.length; i++){
+IDs[i]=getid('pic'+i);
+if(NS4){
+IDs[i].W=IDs[i].document.images["p"+i].width;
+IDs[i].H=IDs[i].document.images["p"+i].height;
+}
+if(NS6 || IE4){
+IDs[i].W=document.images["p"+i].width;
+IDs[i].H=document.images["p"+i].height;
+}
+getnewprops(i);
+moveidto(i , Math.floor(Math.random()*(wind_w-IDs[i].W)), Math.floor(Math.random()*(wind_h-IDs[i].H)));
+if(NS4)IDs[i].visibility = "show";
+if(IE4 || NS6)IDs[i].style.visibility = "visible";
+startfly=setInterval('moveimage('+i+')',Math.floor(Math.random()*100)+100);
+}}
+
+function hidebutterfly(){
+for(i=0; i<floatimages.length; i++){
+if (IE4)
+eval("document.all.pic"+i+".style.visibility='hidden'")
+else if (NS6)
+document.getElementById("pic"+i).style.visibility='hidden'
+else if (NS4)
+eval("document.pic"+i+".visibility='hide'")
+clearInterval(startfly)
+}
+}
+
+if (NS4||NS6||IE4){
+window.onload=init;
+window.onresize=function(){ wind_w=getwindowwidth(); wind_h=getwindowheight(); }
+}
+
+</script>
+  
+    </div>
+     
+</body>
+</html>

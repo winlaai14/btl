@@ -1,0 +1,58 @@
+
+.article3{
+    height: 800px;
+    background-color: white;
+  
+}
+.ATEAGLECOFFEE-text{
+    height:180px;
+ 
+}
+.ATEAGLECOFFEE-text h1{
+    color:orange;
+}
+.ATEAGLECOFFEE-text p{
+    font-weight: 100;
+    text-align: justify;
+}
+.article3-slideshow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600px;
+  
+}
+.hinh1{
+    height: 250px;
+   
+}
+.hinh2{
+    height: 250px;
+   
+}
+.hinh3{
+    height: 250px;
+  
+}
+.hinh4{
+    height: 250px;
+    
+}
+.hinh5{
+    height: 250px;
+   
+}
+.hinh6{
+    height: 250px;
+   
+}
+.hinh7{
+    height: 250px;
+  
+}
+.hinh8{
+    height: 250px;
+   
+}

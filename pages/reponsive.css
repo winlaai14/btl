@@ -1,0 +1,1046 @@
+@media screen and (max-width:768px) {
+    .container{
+      width: 970px;
+    }
+    
+    .col-sm-12{
+        width: 100%;
+        height: 100%;
+    }
+    .col-sm-10{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-8{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-6{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-5{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-4{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-3{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-2{
+        width: 100%;
+        height: 100%;
+    }
+    .slideshow{
+        height: 70%;
+        position: relative;
+    }
+    .Readmore{
+        height: 0%;
+        font-size: 0.8em;
+    }
+    .distinct{
+        position: absolute;
+        top: 20%;
+    }
+    .distinct h1{
+        font-size: 300%;
+         margin-bottom: 0%;
+    }
+    .distinct p{
+        font-size: 100%;
+    }
+    
+    .dungthu button{
+        display: none;
+    }
+    .fixed p{
+        font-size: 0.8em;
+    }
+    .nav{
+        height: 30px;
+    }
+    .nav ul li a{
+        font-size: 0.6em;
+    }
+    .nav img{
+    height: 15px;
+    }
+    .flavours h2{
+        font-size: 100%;
+    }
+     .flavours p{
+         margin-left: 20%;
+      
+        font-size: 60%;
+    }
+    .friday h2{
+        font-size: 100%;
+    }
+    .friday p{
+          margin-left: 20%;
+      
+        font-size: 60%;
+    }
+    .background1{
+        background-size: 100% 100%;
+    }
+    .ndso1{
+        margin-bottom: 20%;
+    }
+    .ndso1 .chunho{
+        font-size: 100%;
+    }
+    .ndso1 .chuto{
+        font-size: 200%;
+    }
+    .ndso2{
+        margin-bottom: 10%;
+    }
+    .ndso2 .chunho2{
+        font-size: 100%;
+        
+    }
+    .ndso2 .chuto2{
+        font-size: 200%;
+    }
+     .whathappen{
+        width: 100%;
+    
+    }
+     .whathappen h2{
+        font-size: 100%;
+    }
+    .whathappen h3{
+        font-size: 100%;
+    }
+    .special{
+        background-size: 100%;
+        height: 100%;
+    }
+    .special h1{
+        font-size: 100%
+    }
+    .special h5{
+        font-size: 100%
+    }
+    .special button{
+        width: 20%;
+    }
+    .aside1 h1{
+        font-size: 100%;
+    }
+    .aside1 button{
+        width: 70%;
+    }
+    .aside2 h1{
+        font-size: 100%;
+    }
+    .aside2 button{
+        width: 70%;
+        
+    }
+    .footer h5{
+        font-size: 70%;
+    }
+    .footer p{
+        font-size: 70%;
+    }
+    .text-logo i{
+        font-size: 70%;
+    }
+    .footer-4 img{
+        width: 50%;
+        height: 50%;
+    }
+    
+}
+@media screen and (max-width:415px) {
+ .container{
+      width: 100%;
+     height: cover;
+    }    
+    .col-sm-12{
+        width: 100%;
+    
+    }
+    .col-sm-10{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-8{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-6{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-5{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-4{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-3{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-2{
+        width: 100%;
+        height: 100%;
+    }
+    .slideshow{
+        width: 100%;
+        height: 30%;
+        position: relative;
+    }
+    .Readmore{
+        display: none;
+        height: 0%;
+        font-size: 0.1em;
+        width: 20%;
+    }
+    .distinct{
+        position: absolute;
+        top:20%;
+        
+    }
+    .distinct h1{
+        font-size: 120%;
+         margin-bottom: 0%;
+    }
+    .distinct p{
+        font-size: 50%;
+    }
+    
+    .dungthu{
+        display: none;
+    }
+   
+    .fixed{
+        width: 100%;
+    }
+    .fixed p{
+        font-size: 0.7em;
+    }
+   
+    .nav ul{
+            display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+    
+        width: 100%;
+        height: 100%;
+    }
+    .nav ul li a{
+        font-size: 0.6em;
+    }
+    .nav img{
+    height: 15px;
+    }
+    .flavours h2{
+        font-size: 50%;
+        margin-left: 20%;
+    }
+     .flavours p{
+         display: none;
+         margin-left: 20%;
+      
+        font-size: 60%;
+    }
+    .friday h2{
+        margin-left: 20%;
+      
+        font-size: 50%;
+    }
+    .friday p{
+          margin-left: 20%;
+          display: none;
+        font-size: 60%;
+    }
+    
+    
+    
+    
+    .background1{
+       background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+    .ndso1{
+        margin-bottom: 20%;
+    }
+    .ndso1 .chunho{
+        font-size: 80%;
+    }
+    .ndso1 .chuto{
+        font-size: 200%;
+    }
+    .ndso1 .nut{
+        width: 40%;
+    }
+    .background2{
+        background-size: 100% 100%;
+         height: 100%;
+        width: 100%;
+        background-position: -120px 100px;
+    }
+    .ndso2 .nut2{
+        width: 40%;
+        margin-left: 0%;
+        float: left;
+    }
+    .ndso2{
+        margin-bottom: 30%;
+        
+    }
+    .ndso2 .chunho2{
+        font-size: 80%;
+        text-align: left;
+        
+    }
+    .ndso2 .chuto2{
+        font-size: 200%;
+        text-align: left;
+    }
+     .whathappen{
+        width: 100%;
+    
+    }
+     .whathappen h2{
+        font-size: 100%;
+    }
+    .whathappen h3{
+        font-size: 100%;
+    }
+    .menu{
+        width: 100%;
+        height: 100%;
+    }
+    .menu .box{
+       width: 100%;
+        font-size: 0.5em;
+    }
+    .menu1 h5{
+        font-size: 70%;
+    }
+    .menu1 p{
+        font-size: 100%;
+    }
+     .menu2 h5{
+        font-size: 70%;
+    }
+    .menu2 p{
+        font-size: 100%;
+    }
+    .item1:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item2:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item3:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item4:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item5:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item6:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item7:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item8:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+    .special{
+       background-size: 100%;
+        height: 100%;
+    }
+    .special h1{
+        font-size: 100%
+    }
+    .special h5{
+        font-size: 100%
+    }
+    .special button{
+        width: 20%;
+    }
+    .aside{
+        width: 100%;
+    }
+    .aside1 h1{
+        font-size: 70%;
+    }
+    .aside1 button{
+        width: 70%;
+        font-size: 0.5em;
+    }
+    .aside2 h1{
+        font-size: 70%;
+    }
+    .aside2 button{
+             width: 70%;
+        font-size: 0.5em;
+        
+    }
+    .footer{
+        width: 415px;
+        height: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer h5{
+        font-size: 100%;
+    }
+    .footer h6{
+        font-size: 100%;
+    }
+    .footer p{
+        font-size: 80%;
+    }
+    .text-logo i{
+        font-size: 200%;
+    }
+    .footer-4 img{
+        display: none;
+    }
+    .logo img{
+        width: 100%;
+        height: 150%;
+    }
+    .footer2{
+        width: 415px;
+    }
+    .footer2 i{
+        font-size: 100%;
+    }
+     .footer2 p{
+        font-size: 100%;
+    }
+  
+}
+@media screen and (max-width:375px) {
+ .container{
+      width: 100%;
+     height: cover;
+    }    
+    .col-sm-12{
+        width: 100%;
+    
+    }
+    .col-sm-10{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-8{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-6{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-5{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-4{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-3{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-2{
+        width: 100%;
+        height: 100%;
+    }
+    .slideshow{
+        width: 100%;
+        height: 30%;
+        position: relative;
+    }
+    .Readmore{
+        display: none;
+        height: 0%;
+        font-size: 0.1em;
+        width: 20%;
+    }
+    .distinct{
+        position: absolute;
+        top:20%;
+      
+    }
+    .distinct h1{
+        font-size: 150%;
+         margin-bottom: 0%;
+    }
+    .distinct p{
+        font-size: 60%;
+    }
+    
+    .dungthu{
+        display: none;
+    }
+   
+    .fixed{
+        width:100%;
+    }
+    .fixed p{
+        font-size: 1em;
+    }
+   
+    .nav ul{
+            display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+    
+        width: 100%;
+        height: 100%;
+    }
+    .nav ul li a{
+        font-size: 1em;
+    }
+    .nav img{
+    height: 30px;
+    }
+    .flavours h2{
+        font-size: 70%;
+        margin-left: 20%;
+    }
+     .flavours p{
+         display: none;
+         margin-left: 20%;
+      
+        font-size: 60%;
+    }
+    .friday h2{
+        margin-left: 20%;
+      
+        font-size: 70%;
+    }
+    .friday p{
+          margin-left: 20%;
+          display: none;
+        font-size: 60%;
+    }
+    
+    
+    
+    
+    .background1{
+       background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+    .ndso1{
+        margin-bottom: 20%;
+    }
+    .ndso1 .chunho{
+        font-size: 80%;
+    }
+    .ndso1 .chuto{
+        font-size: 200%;
+    }
+    .ndso1 .nut{
+        width: 40%;
+    }
+    .background2{
+        background-size: 100% 100%;
+         height: 100%;
+        width: 100%;
+        background-position: -120px 100px;
+    }
+    .ndso2 .nut2{
+        width: 40%;
+        margin-left: 0%;
+        float: left;
+    }
+    .ndso2{
+        margin-bottom: 30%;
+        
+    }
+    .ndso2 .chunho2{
+        font-size: 80%;
+        text-align: left;
+        
+    }
+    .ndso2 .chuto2{
+        font-size: 200%;
+        text-align: left;
+    }
+     .whathappen{
+        width: 100%;
+    
+    }
+     .whathappen h2{
+        font-size: 100%;
+    }
+    .whathappen h3{
+        font-size: 100%;
+    }
+    .menu{
+        width: 100%;
+        height: 100%;
+    }
+    .menu .box{
+       width: 100%;
+        font-size: 0.5em;
+    }
+    .menu1 h5{
+        font-size: 70%;
+    }
+    .menu1 p{
+        font-size: 100%;
+    }
+     .menu2 h5{
+        font-size: 70%;
+    }
+    .menu2 p{
+        font-size: 100%;
+    }
+    .item1:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item2:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item3:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item4:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item5:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item6:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item7:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item8:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+    .special{
+       background-size: 100%;
+        height: 100%;
+    }
+    .special h1{
+        font-size: 100%
+    }
+    .special h5{
+        font-size: 100%
+    }
+    .special button{
+        width: 20%;
+    }
+    .aside{
+        width: 100%;
+    }
+    .aside1 h1{
+        font-size: 70%;
+    }
+    .aside1 button{
+        width: 70%;
+        font-size: 0.5em;
+    }
+    .aside2 h1{
+        font-size: 70%;
+    }
+    .aside2 button{
+             width: 70%;
+        font-size: 0.5em;
+        
+    }
+    .footer{
+        width: 415px;
+        height: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer h5{
+        font-size: 100%;
+    }
+    .footer h6{
+        font-size: 100%;
+    }
+    .footer p{
+        font-size: 80%;
+    }
+    .text-logo i{
+        font-size: 200%;
+    }
+    .footer-4 img{
+        display: none;
+    }
+    .logo img{
+        width:300%;
+        height: 150%;
+    }
+    .footer2{
+        width: 415px;
+    }
+    .footer2 i{
+        font-size: 100%;
+    }
+     .footer2 p{
+        font-size: 100%;
+    }
+  
+}
+@media screen and (max-width:320px) {
+ .container{
+      width: 100%;
+     height: cover;
+    }    
+    .col-sm-12{
+        width: 100%;
+    
+    }
+    .col-sm-10{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-8{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-6{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-5{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-4{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-3{
+        width: 100%;
+        height: 100%;
+    }
+       .col-sm-2{
+        width: 100%;
+        height: 100%;
+    }
+    .slideshow{
+        width: 135%;
+        height: 30%;
+        position: relative;
+        margin-left: -16%;
+    }
+    .Readmore{
+        display: none;
+        height: 0%;
+        font-size: 0.1em;
+        width: 20%;
+    }
+    .distinct{
+        position: absolute;
+        top:20%;
+      
+    }
+    .distinct h1{
+        font-size: 200%;
+         margin-bottom: 0%;
+    }
+    .distinct p{
+        font-size: 60%;
+    }
+    
+    .dungthu{
+        display: none;
+    }
+   
+    .fixed{
+        width:100%;
+    }
+    .fixed p{
+        font-size: 1em;
+    }
+   
+    .nav ul{
+            display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+    
+        width: 100%;
+        height: 100%;
+    }
+    .nav ul li a{
+        font-size: 1em;
+    }
+    .nav img{
+    height: 30px;
+    }
+    .flavours h2{
+        font-size: 70%;
+        margin-left: 20%;
+    }
+     .flavours p{
+         display: none;
+         margin-left: 20%;
+      
+        font-size: 60%;
+    }
+    .friday h2{
+        margin-left: 20%;
+      
+        font-size: 70%;
+    }
+    .friday p{
+          margin-left: 20%;
+          display: none;
+        font-size: 60%;
+    }
+    
+    
+    
+    
+    .background1{
+       background-size: 100% 100%;
+        height: 100%;
+        width: 140%;
+    }
+    .ndso1{
+        margin-bottom: 20%;
+    }
+    .ndso1 .chunho{
+        font-size: 80%;
+    }
+    .ndso1 .chuto{
+        font-size: 200%;
+    }
+    .ndso1 .nut{
+        width: 40%;
+    }
+    .background2{
+        background-size: 100% 100%;
+         height: 100%;
+        width: 140%;
+        background-position: -120px 100px;
+    }
+    .ndso2 .nut2{
+        width: 40%;
+        margin-left: 0%;
+        float: left;
+    }
+    .ndso2{
+        margin-bottom: 30%;
+        
+    }
+    .ndso2 .chunho2{
+        font-size: 80%;
+        text-align: left;
+        
+    }
+    .ndso2 .chuto2{
+        font-size: 200%;
+        text-align: left;
+    }
+     .whathappen{
+        width: 100%;
+    
+    }
+     .whathappen h2{
+        font-size: 100%;
+    }
+    .whathappen h3{
+        font-size: 100%;
+    }
+    .menu{
+        width: 100%;
+        height: 100%;
+    }
+    .menu .box{
+       width: 100%;
+        font-size: 0.5em;
+    }
+    .menu1 h5{
+        font-size: 70%;
+    }
+    .menu1 p{
+        font-size: 100%;
+    }
+     .menu2 h5{
+        font-size: 70%;
+    }
+    .menu2 p{
+        font-size: 100%;
+    }
+    .item1:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item2:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item3:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item4:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item5:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item6:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item7:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+.item8:hover >.box{
+    height: 15px;
+    display: block;
+    transition: 1s;
+}
+    .special{
+       background-size: 100%;
+        height: 100%;
+        width: 130%
+    }
+    .special h1{
+        font-size: 100%
+    }
+    .special h5{
+        font-size: 100%
+    }
+    .special button{
+        width: 20%;
+    }
+    .aside{
+        width: 130%;
+       
+    }
+    .aside1 h1{
+        font-size: 100%;
+    }
+    .aside1 button{
+        width: 70%;
+        font-size: 0.5em;
+    }
+    .aside2 h1{
+        font-size: 100%;
+    }
+    .aside2 button{
+             width: 70%;
+        font-size: 0.5em;
+        
+    }
+    .footer{
+        width: 415px;
+        height: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer h5{
+        font-size: 100%;
+    }
+    .footer h6{
+        font-size: 100%;
+    }
+    .footer p{
+        font-size: 80%;
+    }
+    .text-logo i{
+        font-size: 200%;
+    }
+    .footer-4 img{
+        display: none;
+    }
+    .logo img{
+        width:500%;
+        height: 150%;
+    }
+    .footer2{
+        width: 415px;
+    }
+    .footer2 i{
+        font-size: 100%;
+    }
+     .footer2 p{
+        font-size: 100%;
+    }
+  
+}
+
+
+
